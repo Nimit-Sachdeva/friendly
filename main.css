@@ -89,10 +89,10 @@
   margin:6px;
   color:black;
 }
-.nav-stacked span
+/*.nav-stacked span
 {
   margin-right:5px;
-}
+}*/
 .navbar .badge{
   position: relative;
   background:red !important;
@@ -136,4 +136,18 @@
 {
   padding-right: 11px;
   border-right: 1px solid !important;
+}
+
+#go .panel-body {
+  padding:1px;
+  background-color:#e9ebee;
+}
+#ticker .panel-body{
+    background-color:#e9ebee;
+}
+#gift{
+  color:orange;
+}
+#sidebar{
+  overflow:hidden; 
 }
