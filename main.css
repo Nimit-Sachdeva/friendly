@@ -1,0 +1,121 @@
+
+.container{
+    height: 500px;
+    background-color: orange;
+  }
+
+  #header {
+    margin-top: 0;
+    /*position: fixed;*/
+    background-color: #4267b2;
+    height: 42px;
+}
+.footer {
+  //background-color: rgba(0,0,0,0.87);
+  height: 20px;
+}
+#wrapper {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+#main,
+#menu,
+#sidebar {
+  /*margin-top: 50px;*/
+  height: 600px;
+}
+
+#main {
+   background-color: orange;
+   overflow: auto;
+   overflow-x: hidden;
+  }
+  #main::-webkit-scrollbar {
+      display: none;
+  }
+
+#menu { background-color: pink; }
+
+#sidebar {
+
+   background-color: yellow; }
+#main,
+#menu,
+#sidebar {
+  background-color: #e9ebee;#header .dropdown a {
+      color: black;
+  }
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+#header .navbar-brand {
+    color: white;
+}
+#header a {
+    color: white;
+}
+#header .dropdown li > a {
+    color: black;
+}
+.glyphicon
+{
+  color:navy;
+
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon
+{
+  color: green;
+  margin-left:20px;
+
+}
+.navbar .glyphicon
+{
+  font-size: 16px;
+}
+
+.image-post {
+    margin-bottom: 15px;
+}
+.nav-stacked a
+{
+  margin:6px;
+  color:black;
+}
+.nav-stacked span
+{
+  margin-right:5px;
+}
+.navbar .badge{
+  background:red !important;
+  color:black !important;
+  margin-top:-30px;
+  height:17px;
+}
+.nav-stacked .badge{
+  background:none !important;
+  color:black !important;
+}
+.dp{
+  margin-top:6px;
+  border:1px solid;
+}
+.navbar .form-group
+{
+  width:500px;
+}
+#navbar img
+{
+  padding: 0;
+}
+.comment {
+    margin: 0;
+}
+.input-group-btn .glyphicon-search
+{
+  font-size: 16px !important;
+}
