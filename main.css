@@ -94,6 +94,7 @@
   margin-right:5px;
 }
 .navbar .badge{
+  position: relative;
   background:red !important;
   color:black !important;
   margin-top:-30px;
@@ -130,4 +131,9 @@
 .inp
 {
   border:none;
+}
+.phead
+{
+  padding-right: 11px;
+  border-right: 1px solid !important;
 }
