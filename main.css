@@ -1,8 +1,8 @@
 
-.container{
+/*.container{
     height: 500px;
     background-color: orange;
-  }
+  }*/
 
   #header {
     top: 0;
@@ -146,9 +146,14 @@
 #gift{
   color:orange;
 }
- 
+
 #sidebar{
   overflow:auto;
 }
 #sidebar::-webkit-scrollbar {
     display: none;
+  }
+.copyrights
+{
+  margin-top:8px;
+}
