@@ -98,13 +98,13 @@
   margin-left:20px !important;
   height:17px;
 }
-
 .nav-stacked .badge{
   background:none !important;
   color:black !important;
 }
 .dp{
-  margin-top:6px;
+  margin-top: -7px;
+
   border:1px solid;
 }
 .navbar .form-group
@@ -151,6 +151,10 @@
 #sidebar{
   overflow:auto;
 }
+#sidebar .glyphicon
+{
+  font-size:12px;
+}
 #sidebar::-webkit-scrollbar {
     display: none;
   }
@@ -158,14 +162,52 @@
 {
   margin-top:8px;
 }
+.nav .glyphicon-info
+{
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
 @media(max-width: 1200px)
 {
   .input-group
   {
     width:80% !important;
   }
+
 }
-#sidebar .glyphicon
+@media(max-width:768px)
 {
-  font-size:12px;
+.collapse
+  {
+  background: white;
+  display:block;
+  padding-left: 10px !important;
+
+  }
+.collapse .glyphicon
+  {
+    color:black;
+    border: 0 !important;
+  }
+  .collapse a
+  {
+    margin-left:10px !important;
+    color:black !important;
+  }
+  .collapse img
+  {
+    margin-right:20px;
+  }
+  .collapse .hide
+  {
+    padding-left:20px !important;
+    display: inline !important;
+  }
+  .nav .badge
+  { position: static;
+    margin: 0;
+    float:right !important;
+    background: none !important;
+
+  }
 }

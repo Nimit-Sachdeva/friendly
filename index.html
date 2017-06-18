@@ -22,7 +22,7 @@
   </head>
   <body>
         <header>
-          <nav class="navbar navbar-default navbar-fixed-top" id="header"><!--Header in it start-->
+          <nav class="navbar navbar-default navbar-fixed-top " id="header"><!--Header in it start-->
           <div class="container">
 
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,32 +55,30 @@
           </div>
         </form>
         <ul class="nav navbar-nav navbar-right">
-          <li><img class="dp" height="30px" width="30px" src="img/dp.jpg" alt="..."></li>
-          <li><a href="#">Nimit</a></li>
+
+          <li><a href="#"><img class="dp" height="30px" width="30px" src="img/dp.jpg" alt="...">Nimit</a></li>
           <li><a href="#">
             <div>
-            <span style="border-left:1px solid  ;padding-left:4px" title="Home" class="glyphicon glyphicon-home" aria-hidden="true">
+            <span style="border-left:1px solid  ;padding-left:4px" title="Home" class="glyphicon glyphicon-home" aria-hidden="true"><p class="hide">Home</p>
             </span></div>
           </a></li>
-          <li><a href="#"><span title="User" class="glyphicon glyphicon-user" aria-hidden="true"></span>
+          <li><a href="#"><span title="User" class="glyphicon glyphicon-user" aria-hidden="true"><p class="hide">Friend-Requests</p></span>
             <span class="badge">2</span></a></li>
           <li><a href="#">
-            <span title="user" class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            <span title="user" class="glyphicon glyphicon-envelope" aria-hidden="true"><p class="hide">Messages</p></span>
               <span class="badge">4</span>
 
           </a></li>
           <li><a href="#">
-            <span style="padding-right:5px;" title="Notifications" class="glyphicon glyphicon-globe" aria-hidden="true">
-            </span>
+            <span title="Notifications" class="glyphicon glyphicon-globe" aria-hidden="true"><p class="hide">Notifications</p></span>
               <span class="badge">8</span>
           </a></li>
           <li><a href="#">
-            <span style="border-left:1px solid black;padding-left:5px" title="Help" class="glyphicon glyphicon-info-sign" aria-hidden="true">
-            </span>
+            <span title="Help" class="glyphicon glyphicon-info-sign" aria-hidden="true"><p class="hide">Help</p></span>
           </a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <span class="caret"></span></a>
+            <p class="hide">Settings</p><span class="caret"></span></a>
         <ul class="dropdown-menu">
             <li><a href="#">Your Pages: 0</a></li>
             <li><a href="#">Create Page</a></li>
@@ -142,8 +140,8 @@
                   <input style="height:50px;width:80%;" class="inp postss" type="text" placeholder="Enter your post">
                 </div>
                 <div class="panel-footer">
-                  <span><button style="height:30px; background:lightgrey;" class="glyphicon glyphicon-pencil  postss"> Photo/Video</button>
-                    <button style="height:30px" class="glyphicon glyphicon-user  postss"> Feeling/Activity</button>
+                  <span><button style="height:30px ;background:#ecf2ea;" class="glyphicon glyphicon-pencil  postss"> Photo/Video</button>
+                    <button style="height:30px ;background:#ecf2ea"; class="glyphicon glyphicon-user  postss"> Feeling/Activity</button>
                     </span>
                 </div>
               </div>
@@ -186,7 +184,7 @@
                 <div class="panel-heading">
                   <span>
                     <h3 class="panel-title">
-                      <img height="33px" width="33px" src="img/Acadview.jpg" alt="..."> <a href="#">Acadview</a> posted status
+                      <img height="33px" width="33px" src="img/Acadview.jpg" alt="..."><a href="#">Acadview</a> posted status
                     </h3>
                  <p>3hrs ago</p></span>
                </div>
@@ -219,10 +217,11 @@
                           <!--panel 2 end-->
               <div class="panel panel-default">           <!--panel 3-->
                <div class="panel-heading">
+
                    <h3 class="panel-title">
-                     <span><img height="33px" width="33px" src="img/Batrra.jpg" alt="..."><a href="#">Harman Batra</a> posted status
+                     <img height="33px" width="33px" src="img/Batrra.jpg" alt="..."><a href="#">Harman Batra</a> posted status
                   </h3>
-                  5 hrs ago</span>
+                  <span>5 hrs ago</span>
                     </div>
               <div class="panel-body">
                   <blockquote>
@@ -282,7 +281,7 @@
                 <div class="panel panel-default">           <!--panel 4-->
                  <div class="panel-heading">
                      <h3 class="panel-title">
-                       <span><a href="#"><img src="img/attri.jpg" height="33px" width="33px">Sahil Sachdeva</a> posted status
+                      <a href="#"><img src="img/attri.jpg" height="33px" width="33px">Sahil Sachdeva</a> posted status
                      </h3>9hrs ago</div>
                 <div class="panel-body">
                   <div class="embed-responsive embed-responsive-16by9">
@@ -335,7 +334,7 @@
                   <div class="panel panel-default">           <!--panel album-->
                     <div class="panel-heading">
                       <h3 class="panel-title">
-                          <img height="33px" width="33px" src="img/pdlogo.jpg" alt="..."><a href="#">Sandeep Singh</a> posted status
+                          <img height="33px" width="33px" src="img/sand.jpg" alt="..."><a href="#">Sandeep Singh</a> posted status
                       </h3>
                       <p>2hrs ago</p>
                     </div>
@@ -435,8 +434,8 @@
           <!-- Tab panes -->
             <div class="tab-content">
               <div role="tabpanel" class="tab-pane active" id="trends">
-                <span class="glyphicon glyphicon-saved" aria-hidden="true">Top Trends
-                </span>
+                <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>Top Trends
+
                 <div class="list-group">
                   <a href="#" class="list-group-item active">
                     <h4 class="list-group-item-heading">Champions Trophy 2017 Final: Kings of Cricket Builds Up To India vs Pakistan</h4>
@@ -447,8 +446,7 @@
               </div>
               <!--Politics News-->
               <div role="tabpanel" class="tab-pane" id="politics">
-                <span class="glyphicon glyphicon-saved" aria-hidden="true">
-                </span>
+                <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>
                 Politics
                 <a href="#" class="list-group-item active">
                 <div class="list-group">
@@ -459,8 +457,7 @@
               </div>
               <!--technology news-->
               <div role="tabpanel" class="tab-pane" id="tech">
-                <span class="glyphicon glyphicon-saved" aria-hidden="true">Science & Technology
-                </span>
+                <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>Science & Technology
                 <div class="list-group">
                   <a href="#" class="list-group-item active">
                     <h4 class="list-group-item-heading">SanDisk iXpand Mini flash drive review: Storage companion for Apple iPhone</h4>
@@ -470,7 +467,7 @@
               </div>
               <!--Sports News-->
               <div role="tabpanel" class="tab-pane" id="sports">
-                <span class="glyphicon glyphicon-saved" aria-hidden="true">Sports
+                <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>Sports
                 </span>
                 <div class="list-group">
                   <a href="#" class="list-group-item active">
@@ -481,7 +478,7 @@
               </div>
               <!--Entertainment News-->
               <div role="tabpanel" class="tab-pane" id="entertainment">
-                <span class="glyphicon glyphicon-saved" aria-hidden="true">Entertainment
+                <span class="glyphicon glyphicon-saved" aria-hidden="true>Entertainment
                 </span>
                 <div class="list-group">
                   <a href="#" class="list-group-item active">
