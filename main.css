@@ -157,3 +157,10 @@
 {
   margin-top:8px;
 }
+@media(max-width: 1200px)
+{
+  .input-group
+  {
+    width:80% !important;
+  }
+}
