@@ -98,6 +98,7 @@
   margin-left:20px !important;
   height:17px;
 }
+
 .nav-stacked .badge{
   background:none !important;
   color:black !important;
@@ -163,4 +164,8 @@
   {
     width:80% !important;
   }
+}
+#sidebar .glyphicon
+{
+  font-size:12px;
 }
