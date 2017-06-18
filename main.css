@@ -5,17 +5,9 @@
   }
 
   #header {
-
-    
-
     top: 0;
     background-color: #4267b2;
     height: 42px;
-}
-
-{
-
-
 }
 .footer {
   //background-color: rgba(0,0,0,0.87);
@@ -34,7 +26,7 @@
 }
 
 #main {
-   background-color: orange;
+   /*background-color: orange;*/
    overflow: auto;
    overflow-x: hidden;
   }
@@ -42,7 +34,7 @@
       display: none;
   }
 
-#menu { background-color: pink; }
+/*#menu { background-color: pink; }*/
 
 #sidebar {
 
@@ -154,6 +146,9 @@
 #gift{
   color:orange;
 }
+ 
 #sidebar{
-  overflow:hidden;
+  overflow:auto;
 }
+#sidebar::-webkit-scrollbar {
+    display: none;
