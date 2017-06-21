@@ -34,20 +34,17 @@
               <span class="icon-bar"></span>
               </button>
                 <img  height="50px" src="img/hi.png">
-              <a class="navbar-brand" id="navbar" href="#">
-
-              </a>
 
             </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <form class="navbar-form navbar-left">
-            <div class="form-group input-group">
-              <input style="width:100%" type="text" class="form-control" placeholder="Search">
-              <div class="input-group-btn">
-                <button type="submit" class="btn btn-default ">
-                  <span class="glyphicon glyphicon-search " aria-hidden="true">
+              <form class="navbar-form navbar-left">
+                <div class="form-group input-group">
+                  <input style="width:100%" type="text" class="form-control" placeholder="Search">
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default ">
+                      <span class="glyphicon glyphicon-search " aria-hidden="true">
                   </span>
                 </button>
               </div>
@@ -59,8 +56,10 @@
           <li><a href="#"><img class="dp" height="30px" width="30px" src="img/dp.jpg" alt="...">Nimit</a></li>
           <li><a href="#">
             <div>
-            <span style="border-left:1px solid black ;padding-left:4px" title="Home" class="glyphicon glyphicon-home" aria-hidden="true"><p class="hide">Home</p>
-            </span></div>
+
+              <span style="border-left:1px solid black ;padding-left:4px" title="Home" class="glyphicon glyphicon-home" aria-hidden="true"><p class="hide">Home</p>
+              </span>
+            </div>
           </a></li>
           <li><a href="#"><span title="User" class="glyphicon glyphicon-user" aria-hidden="true"><p class="hide">Friend-Requests</p></span>
             <span class="badge">2</span></a></li>
@@ -74,7 +73,7 @@
               <span class="badge">8</span>
           </a></li>
           <li><a href="#">
-            <span style="border-right:1px solid black; padding-right:5px;" title="Help" class="glyphicon glyphicon-info-sign" aria-hidden="true"><p class="hide">Help</p></span>
+            <span style="border-left:1px solid black; padding-left:5px;" title="Help" class="glyphicon glyphicon-info-sign" aria-hidden="true"><p class="hide">Help</p></span>
           </a></li>
           <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -99,12 +98,12 @@
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.container -->
   </nav>                              <!--nav bar used for that fb like header closed--->
 </header>
     <div class="container" id="wrapper">
       <div class="row">
-        <div class="col-md-3 col-sm-4 hidden-xs">                            <!-- sidebar-->
+        <div class="col-md-3 col-sm-4 hidden-xs leftmenu" >                            <!-- sidebar-->
           <div id="menu">
             <ul class="nav nav-pills nav-stacked">
               <li role="presentation"><a href="#"><img class="dp" height="30px" width="30px" src="img/dp.jpg" alt="...">  Nimit Sachdeva</a></li>
@@ -129,15 +128,15 @@
         <div class="col-md-6 col-sm-8 col-xs-12" ><!--center-->
           <div id="main">
 <!--Content-->
-              <div class="panel panel-default">
+              <div class="panel panel-default" id="createpost">
                 <div class="panel-heading">
-                    <span class="glyphicon glyphicon-pencil phead"> Create a New Post</span>
-                    <span class="glyphicon glyphicon-book phead"> Photo/Video Album</span>
-                    <span class="postss glyphicon glyphicon-camera"> Live Video</span>
+                    <span class="glyphicon glyphicon-pencil posthead "> Create a Post</span>
+                    <span class="glyphicon glyphicon-book posthead"> Photo/Video Album</span>
+                    <span class=" glyphicon glyphicon-camera"> Live Video</span>
                   </div>
                 <div class="panel-body">
-                  <img  class="dp postss" height="50px" width="50px" src="img/dp.jpg" alt="...">
-                  <input style="height:50px;width:80%;" class="inp postss" type="text" placeholder="Enter your post">
+                  <img  class="postdp" height="38px" width="38px" src="img/dp.jpg" alt="...">
+                  <input class="inp postss" type="text" placeholder="Enter your post">
                 </div>
                 <div class="panel-footer">
                   <span><button style="height:30px ;background:#ecf2ea;" class="glyphicon glyphicon-pencil  postss"> Photo/Video</button>
@@ -408,11 +407,11 @@
           </div>
         </div><!--center end-->
         <!--right sidebar started-->
-        <div class="col-md-3 hidden-xs hidden-sm">
+        <div class="col-md-3 hidden-xs hidden-sm rightside">
           <div id="sidebar">
             <div class="panel panel-default" id="ticker">
               <div class="panel-body ticker">
-                Ticker
+                <h5>Events</h5>
 
               </div>
             </div>
@@ -497,14 +496,12 @@
               </div>
             </div>
         </div>
-        <div class="panel-body">
-          </div>
+        <!-- <div class="panel-body">
+          </div> -->
           <div class="panel panel-default">
-            <div class="panel-body">
-              SUGGESTED PAGE:-<span  class=""> <a href="http://www.poetrydream.com"> Poetry Dream</a></span>
-              <div> <img height="150px" width="300px" src="img/pd.png">
-              </div>
-            </div>
+                SUGGESTED PAGE:-<span  class=""> <a href="http://www.poetrydream.com"> Poetry Dream</a></span>
+               <img height="150px" width="250px" src="img/pd.png">
+
           </div>
 
           </div>                        <!--right sidebar end-->
@@ -513,7 +510,7 @@
     </div>
 
 
-    <footer>
+    <footer class="footer">
       <ul class="nav nav-pills pull-right">
         <li role="presentation"><a href="#">Privacy</a></li>
         <li role="presentation"><a href="#">Terms</a></li>

@@ -1,32 +1,83 @@
+.list-heading
+{
+  font-weight: bold;
+}
+.navbar-nav
+{
+  margin-left:
+}
+body{
+  background-color: #e9ebee !important;
+}
+/*.container{}
+background-color: orange;}*/
+@media(min-width:992px)
+{
+  body{
+  margin:0 auto;
+  height: 700px;
+  width:1012px;
+  }
+  .row{
 
-/*.container{
-    height: 500px;
-    background-color: orange;
-  }*/
+      font-size: 12px;
+      margin:0 auto !important;
+      /*height:auto !important;*/
+      width: 1349px !important;
+  }
+  .leftmenu
+  {
+    margin-left: 120px;
+    padding-top: 12px;
+    height:406px;
+    width:180px !important;
+  }
+  .rightside
+  {
+    padding: 0;
+    height:695px;
+    width:308px !important;
+  }
+  .col-md-6
+  {
 
-  #header {
-    top: 0;
-    background-color: #4267b2;
-    height: 42px;
+    padding: 0 !important;
+    width:500px !important;
+  }
+  .navbar-default
+  {
+  padding-left: 100px;
+  }
+  .navbar-right
+  {
+    padding-right: 70px !important;
+  }
+
 }
 .footer {
   //background-color: rgba(0,0,0,0.87);
   height: 20px;
+  bottom: 0;
+  }
+#header{
+  padding-right:30px;
+  top: 0;
+  background-color: #4267b2;
+  height: 42px;
 }
+
 #wrapper {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
 #main,
 #menu,
 #sidebar {
-  margin-top: 50px;
+  margin-top: 45px;
   height: 600px;
 }
 
-#main {
-   /*background-color: orange;*/
+#main {  /*background-color: orange;*/
    overflow: auto;
    overflow-x: hidden;
   }
@@ -35,10 +86,10 @@
   }
 
 /*#menu { background-color: pink; }*/
-
+/*
 #sidebar {
 
-   background-color: yellow; }
+   background-color: yellow; }*/
 #main,
 #menu,
 #sidebar {
@@ -57,6 +108,34 @@
 }
 #header .dropdown li > a {
     color: black;
+}
+#createpost .panel-heading
+{
+  border-right: 1px;
+  font-size: 14px;
+  height: 33px;
+}
+#createpost button
+{
+  height:32px;
+}
+#createpost .panel-body
+{
+  height:71px;
+  width:448px;
+  padding-top: 23px;
+  padding-bottom: 13px;
+  padding-left: 12px;
+  padding-right: 48px;
+}
+#createpost img
+{
+  padding: 1px;
+}
+#createpost .panel-footer
+{
+  height:49px;
+  padding: 12px 12px 8px 12px;
 }
 /*.glyphicon
 {
@@ -99,10 +178,14 @@
   height:17px;
 }
 .nav-stacked .badge{
+  margin-right: 37px;
   background:none !important;
   color:black !important;
 }
 .dp{
+  height: 24px;
+  width:24px;
+  margin-right: 4px;
   margin-top: -7px;
 
   border:1px solid;
@@ -111,16 +194,28 @@
 {
   width:500px;
 }
-#navbar img
+.navbar img
 {
+
   padding: 0;
 }
 .comment {
     margin: 0;
 }
+input.form-control
+{
+  height:23px;
+  margin-top: 5px;
+}
 .input-group-btn .glyphicon-search
 {
-  font-size: 16px !important;
+  
+  font-size: 13px !important;
+}
+.input-group-btn .btn-default
+{
+  margin-top: 5px;
+  height: 23px !important;
 }
 .postss
 {
@@ -131,15 +226,19 @@
 {
   border:none;
 }
-.phead
+.posthead
 {
   padding-right: 11px;
   border-right: 1px solid !important;
 }
 
 #go .panel-body {
-  padding:1px;
+
   background-color:#e9ebee;
+}
+#ticker
+{
+  margin: 0 !important;
 }
 #ticker .panel-body{
     background-color:#e9ebee;
@@ -147,9 +246,19 @@
 #gift{
   color:orange;
 }
+#menu a
+{
+  height:30px;
+  width:186px;
 
+  font-size:12px;
+  padding: 0;
+  //margin-left:-25px;
+}
 #sidebar{
-  overflow:auto;
+  font-size: 12px;
+
+  /*overflow:auto;*/
 }
 #sidebar .glyphicon
 {
@@ -162,21 +271,18 @@
 {
   margin-top:8px;
 }
-.nav .glyphicon-info
-{
-  padding-left: 5px;
-  border-left: 1px solid black;
-}
+
 @media(max-width: 1200px)
 {
   .input-group
   {
-    width:80% !important;
+    width:100% !important;
   }
 
 }
 @media(max-width:768px)
 {
+
 .collapse
   {
   background: white;
