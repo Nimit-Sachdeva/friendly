@@ -300,6 +300,10 @@ input.form-control
     height: auto;
     width:100%;
   }
+  .collapse
+  {
+    background: white;
+  }
   #createpost
   {
     width:auto;
