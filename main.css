@@ -293,19 +293,13 @@ input.form-control
 /*Making the hamburger button menu work */
 @media(max-width:768px)
 {
-    .input-group
-    {
-      background:white !important;
-    }
-  .navbar-nav {
-    overflow: auto;
+  .mobmenu
+  { overflow: auto;
     background: white;
     padding-left: 10px !important;
+    height: auto;
+    width:100%;
   }
-.collapse
-{
-  background: white;
-}
   #createpost
   {
     width:auto;
