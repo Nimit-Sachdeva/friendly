@@ -281,18 +281,22 @@ input.form-control
   margin-top:8px;
 }
 
-@media(max-width: 1200px)
+@media(max-width: 992px)
 {
 
   .input-group
   {
-    width:100% !important;
+    width:250px !important;
   }
 
 }
 /*Making the hamburger button menu work */
 @media(max-width:768px)
 {
+  input-group
+  {
+    width:40%;
+  }
   .mobmenu
   { overflow: auto;
     background: white;
