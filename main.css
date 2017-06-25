@@ -293,7 +293,12 @@ input.form-control
 /*Making the hamburger button menu work */
 @media(max-width:768px)
 {
+    .input-group
+    {
+      background:white !important;
+    }
   .navbar-nav {
+    overflow: auto;
     background: white;
     padding-left: 10px !important;
   }
