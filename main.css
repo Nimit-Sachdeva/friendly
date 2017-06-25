@@ -1,3 +1,51 @@
+@media(min-width:992px)
+{
+  body{
+    margin:0 auto;
+    overflow-x: hidden;
+    height: 700px;
+    width:1012px;
+  }
+  .row{
+
+    font-size: 12px;
+    margin:0 auto !important;
+    /*height:auto !important;*/
+    width: 1349px !important;
+  }
+  /*left sidebar needs some css*/
+  .leftmenu
+  {
+    margin-left: 170px;
+    padding-top: 12px;
+    height:406px;
+    width:180px !important;
+  }
+  /*right sidebar needs some css*/
+  .rightside
+  {
+    margin-right: auto;
+    padding: 0;
+    height:695px;
+    width:308px !important;
+  }
+  /*center part needs some css*/
+  .col-md-6
+  {
+
+    padding: 0 !important;
+    width:500px !important;
+  }
+  .navbar-default
+  {
+    padding-left: 100px;
+  }
+  .navbar-right
+  {
+    padding-right: 70px !important;
+  }
+
+}
 .list-heading
 {
   font-weight: bold;
@@ -7,53 +55,10 @@
   margin-left:
 }
 body{
-  background-color: #e9ebee !important;
+  background-color: #e9ebee !important; //giving background a decent color;
 }
 /*.container{}
 background-color: orange;}*/
-@media(min-width:992px)
-{
-  body{
-  margin:0 auto;
-  height: 700px;
-  width:1012px;
-  }
-  .row{
-
-      font-size: 12px;
-      margin:0 auto !important;
-      /*height:auto !important;*/
-      width: 1349px !important;
-  }
-  .leftmenu
-  {
-    margin-left: 120px;
-    padding-top: 12px;
-    height:406px;
-    width:180px !important;
-  }
-  .rightside
-  {
-    padding: 0;
-    height:695px;
-    width:308px !important;
-  }
-  .col-md-6
-  {
-
-    padding: 0 !important;
-    width:500px !important;
-  }
-  .navbar-default
-  {
-  padding-left: 100px;
-  }
-  .navbar-right
-  {
-    padding-right: 70px !important;
-  }
-
-}
 .footer {
   //background-color: rgba(0,0,0,0.87);
   height: 20px;
@@ -77,6 +82,10 @@ background-color: orange;}*/
   height: 600px;
 }
 
+.comments
+{
+  margin-top: 10px;     //like and comment needed some space;
+}
 #main {  /*background-color: orange;*/
    overflow: auto;
    overflow-x: hidden;
@@ -209,11 +218,12 @@ input.form-control
 }
 .input-group-btn .glyphicon-search
 {
-  
+  top: -2px;
   font-size: 13px !important;
 }
 .input-group-btn .btn-default
 {
+
   margin-top: 5px;
   height: 23px !important;
 }
@@ -257,8 +267,7 @@ input.form-control
 }
 #sidebar{
   font-size: 12px;
-
-  /*overflow:auto;*/
+  overflow-y:auto;
 }
 #sidebar .glyphicon
 {
@@ -274,37 +283,43 @@ input.form-control
 
 @media(max-width: 1200px)
 {
+
   .input-group
   {
     width:100% !important;
   }
 
 }
+/*Making the hamburger button menu work */
 @media(max-width:768px)
 {
-
-.collapse
-  {
-  background: white;
-  display:block;
-  padding-left: 10px !important;
-
+  .navbar-nav {
+    background: white;
+    padding-left: 10px !important;
   }
-.collapse .glyphicon
+.collapse
+{
+  background: white;
+}
+  #createpost
+  {
+    width:auto;
+  }
+.navbar-nav .glyphicon
   {
     color:black;
     border: 0 !important;
   }
-  .collapse a
+  .navbar-nav a
   {
     margin-left:10px !important;
     color:black !important;
   }
-  .collapse img
+  .navbar-nav img
   {
     margin-right:20px;
   }
-  .collapse .hide
+  .navbar-nav .hide
   {
     padding-left:20px !important;
     display: inline !important;
